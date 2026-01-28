@@ -2,6 +2,8 @@
 
 An interactive R Shiny application that demonstrates point estimation through random sampling. The app allows users to explore how sample size, mean, and standard deviation affect the point estimate and sampling variability.
 
+🔗 Live App: https://mrudulaeluri.shinyapps.io/pointestimate/
+
 ---
 
 ## Why This Project Matters
@@ -23,7 +25,7 @@ The goal is to make abstract ideas such as sampling and estimation observable, w
 
 ## Engineering Perspective
 
-This project prioritizes controlled inputs, deterministic computation, and clear output visualization. These are the same principles used when building reliable backend services and data-driven features.
+This project prioritizes controlled inputs, deterministic computation, and clear output visualization. These principles mirror those used when building reliable backend services and data-driven features.
 
 The implementation is designed to be easy to reason about, making system behavior predictable as inputs change.
 
@@ -49,7 +51,7 @@ On user interaction, a sample is generated using `rnorm()`. The sample mean is c
 
 ---
 
-## How to Run the Application
+## How to Run the Application Locally
 
 ### Requirements
 - R (version 4.0 or higher recommended)
@@ -73,12 +75,6 @@ Alternatively, open `app.R` in RStudio and click **Run App**.
 
 ## Project Structure
 
-.
-├── app.R
-├── README.md
-└── docs
-    └── point_estimate_spec.pdf
-
 - `app.R` contains both the UI and server logic
 - `docs/point_estimate_spec.pdf` contains the original project specification for reference
 
@@ -88,8 +84,7 @@ Alternatively, open `app.R` in RStudio and click **Run App**.
 
 - Add confidence interval computation around the point estimate
 - Allow optional random seed input for reproducibility
-- Display summary statistics in a table
-- Compare multiple samples to illustrate convergence behavior
+- Display summary statistics alongside the visualization
 
 ---
 
